@@ -1,0 +1,14 @@
+cat <<EOL > .gitignore
+# Flutter
+.dart_tool/
+.build/
+build/
+.flutter-plugins
+pubspec.lock
+
+# Supabase
+supabase/.temp/
+node_modules/
+dist/
+.env
+EOL
